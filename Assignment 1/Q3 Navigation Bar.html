@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    nav {
+      background-color: cornflowerblue;
+      overflow: hidden;
+      text-align: center; /* Center the navigation bar */
+    }
+
+    nav a {
+      display: inline-block; /* Display navigation items in a line */
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-right: 1px solid #fff; /* Default border style */
+      margin: 0 10px; /* Space between all navigation items */
+      transition: border 0.3s;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid #000000; /* Border style on hover */
+    }
+
+    /* Different border styles for each navigation item */
+    nav a:nth-child(1) {
+      border-style: solid;
+    }
+
+    nav a:nth-child(2) {
+      border-style: dotted;
+    }
+
+    nav a:nth-child(3) {
+      border-style: double;
+    }
+
+    nav a:nth-child(4) {
+      border-style: dashed;
+    }
+
+    nav a:nth-child(5) {
+      border-style: groove;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+    <a href="#">Login</a>
+  </nav>
+
+</body>
+</html>
