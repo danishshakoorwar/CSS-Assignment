@@ -1,0 +1,10 @@
+.card {
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 5px;
+    }
+    .card-image {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
