@@ -1,0 +1,74 @@
+(1)Justify-content:
+
+Role: This property defines how the flex container distributes space along the main axis.
+Values:
+flex-start: Items are packed at the start of the container.
+flex-end: Items are packed at the end of the container.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+space-evenly: Items are evenly distributed with equal space around them, including before the first and after the last item.
+
+.container {
+  display: flex;
+  justify-content: 
+}
+
+
+(2)align-items:
+
+Role: This property defines how the flex container aligns items along the cross axis.
+Values:
+flex-start: Items are aligned at the start of the cross axis.
+flex-end: Items are aligned at the end of the cross axis.
+center: Items are centered along the cross axis.
+baseline: Items are aligned based on their baseline.
+stretch: Items are stretched to fill the container.
+
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+(3)gap: (or row-gap and column-gap):
+
+Role: This property sets the gap between flex items. It is shorthand for row-gap and column-gap in Flexbox.
+Value: It specifies the size of the gap.
+
+.container {
+  display: flex;
+  gap: 10px; 
+}
+
+(4):flex-direction:
+
+Role: This property defines the direction of the main axis and cross axis in the flex container.
+Values:
+row: Main axis is horizontal, and cross axis is vertical.
+row-reverse: Main axis is horizontal, but the start and end points are swapped.
+column: Main axis is vertical, and cross axis is horizontal.
+column-reverse: Main axis is vertical, but the start and end points are swapped.
+
+
+
+.container {
+  display: flex;
+  flex-direction: column; 
+}
+
+(5)gap: (in Flexbox context):
+
+Role: In the Flexbox layout model, gap can be used as shorthand to set both row-gap and column-gap simultaneously.
+
+.container {
+  display: flex;
+  gap: 10px; 
+}
+These properties collectively allow you to control the layout, spacing, and alignment of items within a flex container,
+ providing flexibility in creating responsive and dynamic layouts.
+
+
+
+
+
+

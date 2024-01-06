@@ -1,0 +1,17 @@
+body {
+    padding:20px ;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+  }
+  
+  .centered-div {
+    width: 500px; /* Set a specific width for the centered div */
+    height: 500px; /* Set a specific height for the centered div */
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 100px; /* Vertically center the text within the div */
+  }
+  
