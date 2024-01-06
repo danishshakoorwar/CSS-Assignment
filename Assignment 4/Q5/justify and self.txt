@@ -1,0 +1,34 @@
+
+justify-items and justify-self are both CSS properties that are used in the context of grid layout to control the placement of grid items. However, they apply at different levels within the grid container and grid items.
+
+justify-items:
+
+Usage: Applied to the grid container.
+Description: This property defines the default horizontal alignment for all the grid items within the grid container.
+Values:
+start: Aligns items to the start of the grid container (left for LTR, right for RTL).
+end: Aligns items to the end of the grid container (right for LTR, left for RTL).
+center: Aligns items to the center of the grid container.
+stretch (default): Stretches items to fill the entire grid cell horizontally.
+
+.grid-container {
+  display: grid;
+  justify-items: center; /* or start, end, stretch, etc. */
+}
+justify-self:
+
+Usage: Applied to individual grid items.
+Description: This property allows you to override the justify-items setting for a specific grid item, providing fine-grained control over the horizontal alignment of that particular item within its grid cell.
+Values:
+start: Aligns the item to the start of its grid cell.
+end: Aligns the item to the end of its grid cell.
+center: Aligns the item to the center of its grid cell.
+stretch (default): Stretches the item to fill the entire grid cell horizontally.
+
+.grid-item {
+  justify-self: end; /* or start, center, stretch, etc. */
+}
+
+
+
+
