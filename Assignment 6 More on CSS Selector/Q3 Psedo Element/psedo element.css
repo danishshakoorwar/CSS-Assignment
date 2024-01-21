@@ -1,0 +1,8 @@
+#pseudo-element-example::before {
+    content: "Random words before ";
+  }
+  
+  #pseudo-element-example::after {
+    content: " after random words.";
+  }
+  
