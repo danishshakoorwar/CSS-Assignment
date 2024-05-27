@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Responsive Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Sidebar -->
+    <div class="flex h-screen">
+        <div class="w-64 bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex flex-col justify-between">
+            <div>
+                <div class="p-6 text-2xl font-bold border-b border-purple-500">
+                    Dashboard
+                </div>
+                <nav class="mt-6">
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-home mr-3"></i>
+                        Home
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-users mr-3"></i>
+                        Team
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-project-diagram mr-3"></i>
+                        Projects
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-calendar-alt mr-3"></i>
+                        Calendar
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-file-alt mr-3"></i>
+                        Documents
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-chart-line mr-3"></i>
+                        Reports
+                    </a>
+                </nav>
+            </div>
+            <div class="mb-6">
+                <div class="text-xs uppercase text-gray-400 px-6 mb-2">Teams</div>
+                <nav>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-user-friends mr-3"></i>
+                        Your Team
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-school mr-3"></i>
+                        PW Skills
+                    </a>
+                    <a href="#" class="flex items-center py-3 px-6 text-gray-200 hover:text-white hover:bg-purple-700 rounded transition duration-200">
+                        <i class="fas fa-flask mr-3"></i>
+                        PW Lab
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col">
+            <!-- Navbar -->
+            <div class="w-full bg-white shadow-md p-4 flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <i class="fas fa-search text-gray-600"></i>
+                    </div>
+                    <div class="relative">
+                        <i class="fas fa-bell text-gray-600"></i>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <img src="IMG_20191221_135356.jpg" alt="Profile" class="rounded-full w-10 h-10">
+                        <span class="text-gray-600">Profile</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-1 p-6">
+                <h1 class="text-2xl font-bold mb-4">Welcome to the Dashboard</h1>
+                <h2>My name is Danish Shakoor</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
